@@ -1,0 +1,9 @@
+manifest_version: 1
+name: hermes-desktop-camera
+version: "0.1.0"
+description: A camera button for the Hermes Desktop composer. Open the preview, take a photo, and the frame lands in the composer as an image attachment.
+author: BrokeSkill
+license: MIT
+tags:
+  - desktop
+  - camera
