@@ -14,17 +14,17 @@ plugins directory lands it under that name:
 
 ```bash
 cd ~/.hermes/desktop-plugins
-git clone https://github.com/BrokeSkill/hermes-desktop-camera
+git clone https://github.com/BrokeSkill/Hermes-Camera hermes-desktop-camera
 ```
 
 Windows PowerShell:
 
 ```powershell
 cd $env:LOCALAPPDATA\hermes\desktop-plugins
-git clone https://github.com/BrokeSkill/hermes-desktop-camera
+git clone https://github.com/BrokeSkill/Hermes-Camera hermes-desktop-camera
 ```
 
-Without git, create `desktop-plugins/hermes-desktop-camera/` by hand and put `plugin.js` in it.
+Without git, create `desktop-plugins/hermes-desktop-camera/` by hand and put the repo's `desktop/plugin.js` in it.
 The app watches that folder and picks the file up within a few seconds. To force it, press
 Ctrl/Cmd+K and run **Reload desktop plugins**.
 
